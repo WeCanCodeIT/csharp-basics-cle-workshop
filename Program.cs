@@ -6,10 +6,11 @@ namespace csharp_basics_workshop
     {
         static void Main(string[] args)
         {
+            // string myFavoriteLanguage;
             string myFavoriteLanguage = "C#";
             Console.WriteLine("Let's Learn Some Basics!");
-            Console.WriteLine("Let's Learn" + myFavoriteLanguage);
-
+            Console.WriteLine("Let's Learn " + myFavoriteLanguage);
+             
             Console.WriteLine("What is your first name?");
             string firstName = Console.ReadLine();
             Console.WriteLine("What is your last name?");
